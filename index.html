@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Nepal-Watch Tv shows Online, Watch Movies Online </title>
-    <link rel="icon" href="netflix-logo-png-2616.png">
+    <link rel="icon" href="images/netflix-logo-png-2616.png">
     <link rel="stylesheet" href="netflix.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="landingPage">
-     
         <div class="nav relative">
-            <ul class="flex" style="justify-content: space-between;">
-                <li><img src="netflix-logo-png-2562.png" alt="logo" height="70px" style="margin:30px"></li>
-                <li><button style="margin:30px">Sign In</button></li>
+            <ul  style=" display:flex; flex-direction:inline-flex;justify-content: space-between; margin:30px">
+                <li><img src="images/netflix-logo-png-2562.png" alt="logo" class="logo"></li>
+                <li><button class="signIn">Sign In</button></li>
             </ul>
     </div>
     <div class="container relative">
       <ul class="flex paragraph" style="flex-direction: column;">
-        <li><h1>Unlimited movies, TV shows, and more.</h2></li>
+        <li ><h1>Unlimited movies, TV shows, and more.</h2></li>
        <h3><li>Watch anywhere. Cancel anytime.</li>
         <li>Ready to watch? Enter your email to create or restart your membership.</li></h3>
         <li><input type="text" placeholder="Email address"></li>
@@ -37,14 +36,14 @@
           <li><h1>Enjoy on your TV.</h1></li>
           <li>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</li>
           </ul>
-        <img src="WfVA.gif" alt="tv-gif" style="float:right; margin:10px 50px 30px" height="200px">
+        <img src="images/WfVA.gif" alt="tv-gif" style="float:right;" class="downloads">
         
       </div>
       <div class="border"></div>
      <div class="flex box paragraph">
-      <img src="mobile-0819.jpg" alt="" style="float:left;" height="300px">
+      <img src="images/mobile-0819.jpg" alt="" style="float:left;" class="downloads">
 
-      <ul style="flex-direction:column; justify-content: space-between; ">
+      <ul style="flex-direction:column; justify-content: space-between;">
          <li> <h1>Download your shows to watch offline.</h1></li> 
          <li>Save your favorites easily and always have something to watch.</li>  
          </ul>
@@ -52,14 +51,14 @@
      </div>
      <div class="border"></div>
      <div class="flex box paragraph">
-      <ul style="flex-direction:column; justify-content: space-between; ">
+      <ul style="flex-direction:column; justify-content: space-between;">
      <li> <h1>Watch everywhere.</h1> </li>
      <li>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</li>
       </ul>
 </div>
 <div class="border"></div>
 <div class="flex box paragraph">
-  <img src="AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="" style="float:left" height="300px">
+  <img src="images/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="" style="float:left" class="downloads">
   <ul style="flex-direction:column; justify-content:space-between;">
   <li><h1>Create profiles for kids.
   </h1></li>
@@ -71,7 +70,7 @@
   </h1>
   <ul style="flex-direction:column;">
     
-  <li><p> <button onclick="ans('ans1')" class="questions"> What is netflix?</button></p>
+    <li><p> <button onclick="ans('ans1')" class="questions"> What is netflix?</button></p>
        <div id="ans1" style="display:none" class="answer">
         <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
         <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
