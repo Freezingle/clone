@@ -78,3 +78,11 @@ li{
 .finale{
     margin-top: 20px;
 }
+.answer{
+    background-color: #333;
+    width:500px;
+    height:fit-content;
+    padding: 14px;
+   text-align: left;
+    line-height:1.5rem;
+}
