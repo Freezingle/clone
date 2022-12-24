@@ -15,7 +15,7 @@ body{
     position:relative;
 }
 .landingPage{
-    background-image: URL('images/Netflix-001.webp');
+    background-image: URL('Netflix-001.webp');
     background-size: cover;
     height:40rem;
     background-repeat: no-repeat;
