@@ -4,6 +4,13 @@
     margin:0;
     padding:0;
 }
+.logo{
+    height:70px;
+    margin:30px;
+}
+.signIn{
+    margin:30px;
+}
 body{
     background-color: black;
     color:white;
@@ -15,10 +22,11 @@ body{
     position:relative;
 }
 .landingPage{
-    background-image: URL('Netflix-001.webp');
+    background-image: URL('images/Netflix-001.webp');
     background-size: cover;
     height:40rem;
     background-repeat: no-repeat;
+    
     
    }
 .flex{
@@ -34,6 +42,7 @@ body{
     color:white;
     text-align: center;
    line-height: 50px;
+   
 }
 button{
     background-color:crimson;
@@ -43,12 +52,17 @@ button{
     font-size: large;
 }
 input{
+    align-items: center;
     width:600px;
     height:50px;
     margin:20px;
 }
+.downloads{
+    margin:10px 50px 30px;
+    height:300px;
+}
 .border{
-    width:100%;
+    
     height:8px;
     background-color: #333;
 }
@@ -69,7 +83,7 @@ li{
     background-color: #333;
     margin:auto;
     width:500px;
-    height: 75px;
+    height:fit-content;
     margin-top: 12px;
     text-align: left;
     font-size: 1.5em;
@@ -85,4 +99,63 @@ li{
     padding: 14px;
    text-align: left;
     line-height:1.5rem;
+}
+
+@media screen and (max-width:576px)
+{
+    body{
+        font-size: 5vw;
+       
+    }
+    
+    
+ .landingPage{
+    border: white 2px solid;
+    background-image: url('images/Netflix-001.webp');
+    width: 170vmax;
+    height:150vmax;
+    line-height:30vw;
+    
+    
+ }  
+ .downloads{
+    width:fit-content;
+    height:85vmax;
+ }
+ .flex{
+    flex-direction: column;
+ } 
+ .border{
+    width:170vmax;
+ }
+ .flex ul{
+    margin:30px;
+    
+ }
+ input{
+    margin-top: 100px;
+    height:15vmax;
+    border-radius:8px; 
+    font-size:10vw;   
+    
+ }
+ button{
+    padding: 4vmax 8vmax;
+    font-size: xx-large;
+ }
+ .questions{
+    width:150vmax;
+ }
+ .answer{
+    margin-top:3vmax;
+    width:150vmax;
+    font-size:xx-large;
+    line-height: 9vmax;
+ }
+ .paragraph{
+    margin:auto;
+ }
+ h1{
+    margin-left:auto;
+ }
 }
